@@ -1,128 +1,131 @@
-# EESchema Netlist Version 1.1 created  nie, 13 paź 2013, 13:40:35
+# EESchema Netlist Version 1.1 created  nie, 13 paź 2013, 23:26:18
 (
- ( /4CD7B95E SM0805 C1 22pF
-  ( 1 N-000005 )
-  ( 2 GND )
+ ( /525B0763 $noname  P4 CONN_6 {Lib=CONN_6}
+  (    1 /RESET )
+  (    2 /MOSI )
+  (    3 /MISO )
+  (    4 /SCLK )
+  (    5 GND )
+  (    6 /VCC )
  )
- ( /4CD7B964 SM0805 C2 22pF
-  ( 1 N-000008 )
-  ( 2 GND )
+ ( /525A866C $noname  P3 CONN_4 {Lib=CONN_4}
+  (    1 N-000014 )
+  (    2 N-000013 )
+  (    3 N-000012 )
+  (    4 N-000021 )
  )
- ( /52595538 SM0805 C3 1uF
-  ( 1 /VCC )
-  ( 2 GND )
+ ( /525A864F $noname  P2 CONN_1 {Lib=CONN_1}
+  (    1 N-000015 )
  )
- ( /5259552D SM0805 C4 1uF
-  ( 1 /VCC )
-  ( 2 GND )
+ ( /5259628A $noname  K1 CONN_3 {Lib=CONN_3}
+  (    1 N-000009 )
+  (    2 N-000010 )
+  (    3 N-000011 )
  )
- ( /4CD71B19 SM0805 C5 1uF
-  ( 1 N-000026 )
-  ( 2 GND )
+ ( /5259552D $noname  C4 1uF {Lib=C}
+  (    1 /VCC )
+  (    2 GND )
  )
- ( /5259628A SIL-3 K1 CONN_3
-  ( 1 N-000029 )
-  ( 2 N-000030 )
-  ( 3 N-000017 )
+ ( /52595538 $noname  C3 1uF {Lib=C}
+  (    1 /VCC )
+  (    2 GND )
  )
- ( /52594EA6 SIL-7 P1 CONN_7
-  ( 1 /VCC )
-  ( 2 GND )
-  ( 3 N-000010 )
-  ( 4 N-000011 )
-  ( 5 N-000013 )
-  ( 6 N-000015 )
-  ( 7 N-000003 )
+ ( /52595040 $noname  SW2 RESET {Lib=SW_PUSH}
+  (    1 /RESET )
+  (    2 GND )
  )
- ( /525A864F SIL-1 P2 CONN_1
-  ( 1 N-000007 )
+ ( /52594FF2 $noname  SW1 HWB {Lib=SW_PUSH}
+  (    1 GND )
+  (    2 N-000031 )
  )
- ( /525A866C SIL-4 P3 CONN_4
-  ( 1 N-000016 )
-  ( 2 N-000014 )
-  ( 3 N-000006 )
-  ( 4 N-000025 )
+ ( /52594EA6 $noname  P1 CONN_7 {Lib=CONN_7}
+  (    1 /VCC )
+  (    2 GND )
+  (    3 N-000001 )
+  (    4 N-000002 )
+  (    5 N-000028 )
+  (    6 N-000003 )
+  (    7 N-000031 )
  )
- ( /4CD402E1 SM0805 R1 22
-  ( 1 N-000027 )
-  ( 2 N-000012 )
+ ( /52594C22 $noname  U1 RFM70/RFM73 {Lib=RFM70}
+  (    1 N-000020 )
+  (    2 /MISO )
+  (    3 /MOSI )
+  (    4 /SCLK )
+  (    5 N-000016 )
+  (    6 N-000004 )
+  (    7 /VCC )
+  (    8 GND )
  )
- ( /4CD402DD SM0805 R2 22
-  ( 1 N-000028 )
-  ( 2 N-000031 )
+ ( /4CD7B991 $noname  X1 CRYSTAL {Lib=CRYSTAL}
+  (    1 N-000027 )
+  (    2 N-000029 )
  )
- ( /52594FF2 SW_PUSH_SMALL SW1 HWB
-  ( 1 GND )
-  ( 2 N-000003 )
+ ( /4CD7B964 $noname  C2 22pF {Lib=C}
+  (    1 N-000029 )
+  (    2 GND )
  )
- ( /52595040 SW_PUSH_SMALL SW2 RESET
-  ( 1 N-000019 )
-  ( 2 GND )
+ ( /4CD7B95E $noname  C1 22pF {Lib=C}
+  (    1 N-000027 )
+  (    2 GND )
  )
- ( /52594C22 RFM70 U1 RFM70
-  ( 1 N-000002 )
-  ( 2 N-000024 )
-  ( 3 N-000022 )
-  ( 4 N-000020 )
-  ( 5 N-000018 )
-  ( 6 N-000001 )
-  ( 7 /VCC )
-  ( 8 GND )
+ ( /4CD71B19 $noname  C5 1uF {Lib=C}
+  (    1 N-000023 )
+  (    2 GND )
  )
- ( /4CC88C50 TQFP32 U2 ATMEGA32U2
-  ( 1 N-000005 )
-  ( 2 N-000008 )
-  ( 3 GND )
-  ( 4 /VCC )
-  ( 5 N-000029 )
-  ( 6 N-000030 )
-  ( 7 N-000017 )
-  ( 8 N-000010 )
-  ( 9 N-000011 )
-  ( 10 N-000001 )
-  ( 11 N-000013 )
-  ( 12 N-000015 )
-  ( 13 N-000003 )
-  ( 14 N-000018 )
-  ( 15 N-000020 )
-  ( 16 N-000022 )
-  ( 17 N-000024 )
-  ( 18 N-000002 )
-  ( 19 N-000025 )
-  ( 20 N-000006 )
-  ( 21 N-000014 )
-  ( 22 N-000016 )
-  ( 23 N-000007 )
-  ( 24 N-000019 )
-  ( 25 ? )
-  ( 26 ? )
-  ( 27 /VCC )
-  ( 28 GND )
-  ( 29 N-000031 )
-  ( 30 N-000012 )
-  ( 31 N-000026 )
-  ( 32 /VCC )
+ ( /4CD402E1 $noname  R1 22 {Lib=R}
+  (    1 N-000025 )
+  (    2 N-000024 )
  )
- ( /4CD3FD55 CONN_USB2_MiniB_SMT U3 USBCONN
-  ( 1 N-000026 )
-  ( 2 N-000027 )
-  ( 3 N-000028 )
-  ( 4 GND )
-  ( 5 GND )
+ ( /4CD402DD $noname  R2 22 {Lib=R}
+  (    1 N-000026 )
+  (    2 N-000022 )
  )
- ( /4CD7B991 HC-18UV X1 CRYSTAL
-  ( 1 N-000005 )
-  ( 2 N-000008 )
+ ( /4CD3FD55 $noname  U3 USBCONN {Lib=USBCONN}
+  (    1 N-000023 )
+  (    2 N-000025 )
+  (    3 N-000026 )
+  (    4 GND )
+  (    5 GND )
+ )
+ ( /4CC88C50 TQFP32  U2 ATMEGA32U2 {Lib=ATMEGA32U2}
+  (    1 N-000027 )
+  (    2 N-000029 )
+  (    3 GND )
+  (    4 /VCC )
+  (    5 N-000009 )
+  (    6 N-000010 )
+  (    7 N-000011 )
+  (    8 N-000001 )
+  (    9 N-000002 )
+  (   10 N-000004 )
+  (   11 N-000028 )
+  (   12 N-000003 )
+  (   13 N-000031 )
+  (   14 N-000016 )
+  (   15 /SCLK )
+  (   16 /MOSI )
+  (   17 /MISO )
+  (   18 N-000020 )
+  (   19 N-000021 )
+  (   20 N-000012 )
+  (   21 N-000013 )
+  (   22 N-000014 )
+  (   23 N-000015 )
+  (   24 /RESET )
+  (   25 ? )
+  (   26 ? )
+  (   27 /VCC )
+  (   28 GND )
+  (   29 N-000022 )
+  (   30 N-000024 )
+  (   31 N-000023 )
+  (   32 /VCC )
  )
 )
 *
 { Allowed footprints by component:
-$component C1
- SM*
- C?
- C1-1
-$endlist
-$component C2
+$component C4
  SM*
  C?
  C1-1
@@ -132,7 +135,15 @@ $component C3
  C?
  C1-1
 $endlist
-$component C4
+$component U1
+ RFM70
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C1
  SM*
  C?
  C1-1
@@ -156,8 +167,121 @@ $component R2
  R?-*
  SM1206
 $endlist
-$component U1
- RFM70
-$endlist
 $endfootprintlist
 }
+{ Pin List by Nets
+Net 1 "" ""
+ U2 8
+ P1 3
+Net 2 "" ""
+ U2 9
+ P1 4
+Net 3 "" ""
+ U2 12
+ P1 6
+Net 4 "" ""
+ U2 10
+ U1 6
+Net 5 "GND" "GND"
+ C4 2
+ U2 28
+ C2 2
+ C1 2
+ U2 3
+ C5 2
+ U3 4
+ U3 5
+ U1 8
+ P1 2
+ SW1 1
+ SW2 2
+ C3 2
+ P4 5
+Net 6 "/MISO" "MISO"
+ P4 3
+ U2 17
+ U1 2
+Net 7 "/SCLK" "SCLK"
+ U1 4
+ P4 4
+ U2 15
+Net 8 "/VCC" "VCC"
+ U2 32
+ C4 1
+ P4 6
+ U1 7
+ C3 1
+ U2 27
+ P1 1
+ U2 4
+Net 9 "" ""
+ U2 5
+ K1 1
+Net 10 "" ""
+ U2 6
+ K1 2
+Net 11 "" ""
+ U2 7
+ K1 3
+Net 12 "" ""
+ P3 3
+ U2 20
+Net 13 "" ""
+ P3 2
+ U2 21
+Net 14 "" ""
+ P3 1
+ U2 22
+Net 15 "" ""
+ P2 1
+ U2 23
+Net 16 "" ""
+ U1 5
+ U2 14
+Net 18 "/MOSI" "MOSI"
+ U2 16
+ U1 3
+ P4 2
+Net 20 "" ""
+ U1 1
+ U2 18
+Net 21 "" ""
+ P3 4
+ U2 19
+Net 22 "" ""
+ U2 29
+ R2 2
+Net 23 "" ""
+ U2 31
+ U3 1
+ C5 1
+Net 24 "" ""
+ U2 30
+ R1 2
+Net 25 "" ""
+ R1 1
+ U3 2
+Net 26 "" ""
+ U3 3
+ R2 1
+Net 27 "" ""
+ U2 1
+ X1 1
+ C1 1
+Net 28 "" ""
+ U2 11
+ P1 5
+Net 29 "" ""
+ C2 1
+ X1 2
+ U2 2
+Net 30 "/RESET" "RESET"
+ U2 24
+ P4 1
+ SW2 1
+Net 31 "" ""
+ U2 13
+ P1 7
+ SW1 2
+}
+#End
