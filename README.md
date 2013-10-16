@@ -1,7 +1,7 @@
 usb-avr-usart-rfm7x-interface
 =============================
 
-Small interface bard allowing you to control yor microcontroller wirelessly via RFM70 or RFM73 module (USART also available)
+Small interface board allowing you to control yor microcontroller wirelessly via RFM70 or RFM73 module (USART also available)
 
 Please note, that even though my part of this design is published under permissive MIT license,
 it uses some software libraries, which are published under other (e.g. GPL) license.
