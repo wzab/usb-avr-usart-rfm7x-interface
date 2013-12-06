@@ -1,287 +1,382 @@
-# EESchema Netlist Version 1.1 created  nie, 13 paź 2013, 23:26:18
-(
- ( /525B0763 $noname  P4 CONN_6 {Lib=CONN_6}
-  (    1 /RESET )
-  (    2 /MOSI )
-  (    3 /MISO )
-  (    4 /SCLK )
-  (    5 GND )
-  (    6 /VCC )
- )
- ( /525A866C $noname  P3 CONN_4 {Lib=CONN_4}
-  (    1 N-000014 )
-  (    2 N-000013 )
-  (    3 N-000012 )
-  (    4 N-000021 )
- )
- ( /525A864F $noname  P2 CONN_1 {Lib=CONN_1}
-  (    1 N-000015 )
- )
- ( /5259628A $noname  K1 CONN_3 {Lib=CONN_3}
-  (    1 N-000009 )
-  (    2 N-000010 )
-  (    3 N-000011 )
- )
- ( /5259552D $noname  C4 1uF {Lib=C}
-  (    1 /VCC )
-  (    2 GND )
- )
- ( /52595538 $noname  C3 1uF {Lib=C}
-  (    1 /VCC )
-  (    2 GND )
- )
- ( /52595040 $noname  SW2 RESET {Lib=SW_PUSH}
-  (    1 /RESET )
-  (    2 GND )
- )
- ( /52594FF2 $noname  SW1 HWB {Lib=SW_PUSH}
-  (    1 GND )
-  (    2 N-000031 )
- )
- ( /52594EA6 $noname  P1 CONN_7 {Lib=CONN_7}
-  (    1 /VCC )
-  (    2 GND )
-  (    3 N-000001 )
-  (    4 N-000002 )
-  (    5 N-000028 )
-  (    6 N-000003 )
-  (    7 N-000031 )
- )
- ( /52594C22 $noname  U1 RFM70/RFM73 {Lib=RFM70}
-  (    1 N-000020 )
-  (    2 /MISO )
-  (    3 /MOSI )
-  (    4 /SCLK )
-  (    5 N-000016 )
-  (    6 N-000004 )
-  (    7 /VCC )
-  (    8 GND )
- )
- ( /4CD7B991 $noname  X1 CRYSTAL {Lib=CRYSTAL}
-  (    1 N-000027 )
-  (    2 N-000029 )
- )
- ( /4CD7B964 $noname  C2 22pF {Lib=C}
-  (    1 N-000029 )
-  (    2 GND )
- )
- ( /4CD7B95E $noname  C1 22pF {Lib=C}
-  (    1 N-000027 )
-  (    2 GND )
- )
- ( /4CD71B19 $noname  C5 1uF {Lib=C}
-  (    1 N-000023 )
-  (    2 GND )
- )
- ( /4CD402E1 $noname  R1 22 {Lib=R}
-  (    1 N-000025 )
-  (    2 N-000024 )
- )
- ( /4CD402DD $noname  R2 22 {Lib=R}
-  (    1 N-000026 )
-  (    2 N-000022 )
- )
- ( /4CD3FD55 $noname  U3 USBCONN {Lib=USBCONN}
-  (    1 N-000023 )
-  (    2 N-000025 )
-  (    3 N-000026 )
-  (    4 GND )
-  (    5 GND )
- )
- ( /4CC88C50 TQFP32  U2 ATMEGA32U2 {Lib=ATMEGA32U2}
-  (    1 N-000027 )
-  (    2 N-000029 )
-  (    3 GND )
-  (    4 /VCC )
-  (    5 N-000009 )
-  (    6 N-000010 )
-  (    7 N-000011 )
-  (    8 N-000001 )
-  (    9 N-000002 )
-  (   10 N-000004 )
-  (   11 N-000028 )
-  (   12 N-000003 )
-  (   13 N-000031 )
-  (   14 N-000016 )
-  (   15 /SCLK )
-  (   16 /MOSI )
-  (   17 /MISO )
-  (   18 N-000020 )
-  (   19 N-000021 )
-  (   20 N-000012 )
-  (   21 N-000013 )
-  (   22 N-000014 )
-  (   23 N-000015 )
-  (   24 /RESET )
-  (   25 ? )
-  (   26 ? )
-  (   27 /VCC )
-  (   28 GND )
-  (   29 N-000022 )
-  (   30 N-000024 )
-  (   31 N-000023 )
-  (   32 /VCC )
- )
-)
-*
-{ Allowed footprints by component:
-$component C4
- SM*
- C?
- C1-1
-$endlist
-$component C3
- SM*
- C?
- C1-1
-$endlist
-$component U1
- RFM70
-$endlist
-$component C2
- SM*
- C?
- C1-1
-$endlist
-$component C1
- SM*
- C?
- C1-1
-$endlist
-$component C5
- SM*
- C?
- C1-1
-$endlist
-$component R1
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R2
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$endfootprintlist
-}
-{ Pin List by Nets
-Net 1 "" ""
- U2 8
- P1 3
-Net 2 "" ""
- U2 9
- P1 4
-Net 3 "" ""
- U2 12
- P1 6
-Net 4 "" ""
- U2 10
- U1 6
-Net 5 "GND" "GND"
- C4 2
- U2 28
- C2 2
- C1 2
- U2 3
- C5 2
- U3 4
- U3 5
- U1 8
- P1 2
- SW1 1
- SW2 2
- C3 2
- P4 5
-Net 6 "/MISO" "MISO"
- P4 3
- U2 17
- U1 2
-Net 7 "/SCLK" "SCLK"
- U1 4
- P4 4
- U2 15
-Net 8 "/VCC" "VCC"
- U2 32
- C4 1
- P4 6
- U1 7
- C3 1
- U2 27
- P1 1
- U2 4
-Net 9 "" ""
- U2 5
- K1 1
-Net 10 "" ""
- U2 6
- K1 2
-Net 11 "" ""
- U2 7
- K1 3
-Net 12 "" ""
- P3 3
- U2 20
-Net 13 "" ""
- P3 2
- U2 21
-Net 14 "" ""
- P3 1
- U2 22
-Net 15 "" ""
- P2 1
- U2 23
-Net 16 "" ""
- U1 5
- U2 14
-Net 18 "/MOSI" "MOSI"
- U2 16
- U1 3
- P4 2
-Net 20 "" ""
- U1 1
- U2 18
-Net 21 "" ""
- P3 4
- U2 19
-Net 22 "" ""
- U2 29
- R2 2
-Net 23 "" ""
- U2 31
- U3 1
- C5 1
-Net 24 "" ""
- U2 30
- R1 2
-Net 25 "" ""
- R1 1
- U3 2
-Net 26 "" ""
- U3 3
- R2 1
-Net 27 "" ""
- U2 1
- X1 1
- C1 1
-Net 28 "" ""
- U2 11
- P1 5
-Net 29 "" ""
- C2 1
- X1 2
- U2 2
-Net 30 "/RESET" "RESET"
- U2 24
- P4 1
- SW2 1
-Net 31 "" ""
- U2 13
- P1 7
- SW1 2
-}
-#End
+(export (version D)
+  (design
+    (source /home/wzab/biezace/AVR/ATMEGA_USB/GIT/usb-avr-usart-rfm7x-interface/kicad-project-v1/usb_atmega32u2_rfm7x.sch)
+    (date "pią, 6 gru 2013, 01:05:48")
+    (tool "eeschema (2013-jul-07)-stable"))
+  (components
+    (comp (ref P4)
+      (value CONN_6)
+      (libsource (lib usb_atmega32u2_rfm7x-saved) (part CONN_6))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 525B0763))
+    (comp (ref P3)
+      (value CONN_4)
+      (libsource (lib usb_atmega32u2_rfm7x-saved) (part CONN_4))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 525A866C))
+    (comp (ref P2)
+      (value CONN_1)
+      (libsource (lib usb_atmega32u2_rfm7x-saved) (part CONN_1))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 525A864F))
+    (comp (ref K1)
+      (value CONN_3)
+      (libsource (lib usb_atmega32u2_rfm7x-saved) (part CONN_3))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5259628A))
+    (comp (ref C4)
+      (value 1uF)
+      (libsource (lib usb_atmega32u2_rfm7x-saved) (part C))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5259552D))
+    (comp (ref C3)
+      (value 1uF)
+      (libsource (lib usb_atmega32u2_rfm7x-saved) (part C))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 52595538))
+    (comp (ref SW2)
+      (value RESET)
+      (libsource (lib usb_atmega32u2_rfm7x-saved) (part SW_PUSH))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 52595040))
+    (comp (ref SW1)
+      (value HWB)
+      (libsource (lib usb_atmega32u2_rfm7x-saved) (part SW_PUSH))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 52594FF2))
+    (comp (ref P1)
+      (value CONN_7)
+      (libsource (lib usb_atmega32u2_rfm7x-saved) (part CONN_7))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 52594EA6))
+    (comp (ref U1)
+      (value RFM70/RFM73)
+      (libsource (lib usb_atmega32u2_rfm7x-saved) (part RFM70))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 52594C22))
+    (comp (ref X1)
+      (value CRYSTAL)
+      (libsource (lib usb_atmega32u2_rfm7x-saved) (part CRYSTAL))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4CD7B991))
+    (comp (ref C2)
+      (value 22pF)
+      (libsource (lib usb_atmega32u2_rfm7x-saved) (part C))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4CD7B964))
+    (comp (ref C1)
+      (value 22pF)
+      (libsource (lib usb_atmega32u2_rfm7x-saved) (part C))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4CD7B95E))
+    (comp (ref C5)
+      (value 1uF)
+      (libsource (lib usb_atmega32u2_rfm7x-saved) (part C))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4CD71B19))
+    (comp (ref R1)
+      (value 22)
+      (libsource (lib usb_atmega32u2_rfm7x-saved) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4CD402E1))
+    (comp (ref R2)
+      (value 22)
+      (libsource (lib usb_atmega32u2_rfm7x-saved) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4CD402DD))
+    (comp (ref U3)
+      (value USBCONN)
+      (libsource (lib usb_atmega32u2_rfm7x-saved) (part USBCONN))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4CD3FD55))
+    (comp (ref U2)
+      (value ATMEGA32U2)
+      (footprint TQFP32)
+      (datasheet http://www.atmel.com/dyn/resources/prod_documents/doc7799.pdf)
+      (libsource (lib usb_atmega32u2_rfm7x-saved) (part ATMEGA32U2))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4CC88C50))
+    (comp (ref R3)
+      (value 3k)
+      (libsource (lib usb_atmega32u2_rfm7x-saved) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 52A114BD))
+    (comp (ref R4)
+      (value 3k)
+      (libsource (lib usb_atmega32u2_rfm7x-saved) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 52A115BA)))
+  (libparts
+    (libpart (lib usb_atmega32u2_rfm7x-saved) (part ATMEGA32U2)
+      (fields
+        (field (name Reference) U)
+        (field (name Value) ATMEGA32U2)
+        (field (name Footprint) TQFP32)
+        (field (name Datasheet) http://www.atmel.com/dyn/resources/prod_documents/doc7799.pdf))
+      (pins
+        (pin (num 1) (name XTAL1) (type passive))
+        (pin (num 2) (name "(PC0)XTAL2") (type passive))
+        (pin (num 3) (name GND) (type power_in))
+        (pin (num 4) (name VCC) (type power_in))
+        (pin (num 5) (name "(PCINT11/AIN2)PC2") (type BiDi))
+        (pin (num 6) (name "(OC.0B/INT0)PD0") (type BiDi))
+        (pin (num 7) (name "(AIN0/INT1)PD1") (type BiDi))
+        (pin (num 8) (name "(RXD1/AIN1/INT2)PD2") (type BiDi))
+        (pin (num 9) (name "(TXD1/INT3)PD3") (type BiDi))
+        (pin (num 10) (name "(INT5/AIN3)PD4") (type BiDi))
+        (pin (num 11) (name "(XCK/AIN4/PCINT12)PD5") (type BiDi))
+        (pin (num 12) (name "(~RTS~/AIN5/INT6)PD6") (type BiDi))
+        (pin (num 13) (name "(~CTS~/~HWB~/AIN6/T0/INT7)PD7") (type BiDi))
+        (pin (num 14) (name "(~SS~/PCINT0)PB0") (type BiDi))
+        (pin (num 15) (name "(SCLK/PCINT1)PB1") (type BiDi))
+        (pin (num 16) (name "(PDI/MOSI/PCINT2)PB2") (type BiDi))
+        (pin (num 17) (name "PB3(PD0/MISO/PCINT3)") (type BiDi))
+        (pin (num 18) (name "PB4(T1/PCINT4)") (type BiDi))
+        (pin (num 19) (name "PB5(PCINT5)") (type BiDi))
+        (pin (num 20) (name "PB6(PCINT6)") (type BiDi))
+        (pin (num 21) (name "PB7(PCINT7/OC.0A/OC.1C)") (type BiDi))
+        (pin (num 22) (name "PC7(INT4/ICP1/CLKO)") (type BiDi))
+        (pin (num 23) (name "PC6(OC.1A/PCINT8)") (type BiDi))
+        (pin (num 24) (name "~Reset~(PC1/dW)") (type BiDi))
+        (pin (num 25) (name "PC5(PCINT9/OC.1B)") (type BiDi))
+        (pin (num 26) (name "PC4(PCINT10)") (type BiDi))
+        (pin (num 27) (name UCAP) (type passive))
+        (pin (num 28) (name UGND) (type power_in))
+        (pin (num 29) (name D+) (type BiDi))
+        (pin (num 30) (name D-) (type BiDi))
+        (pin (num 31) (name UVCC) (type power_in))
+        (pin (num 32) (name AVCC) (type power_in))))
+    (libpart (lib usb_atmega32u2_rfm7x-saved) (part CONN_1)
+      (fields
+        (field (name Reference) P)
+        (field (name Value) CONN_1))
+      (pins
+        (pin (num 1) (name 1) (type passive))))
+    (libpart (lib usb_atmega32u2_rfm7x-saved) (part CONN_3)
+      (fields
+        (field (name Reference) K)
+        (field (name Value) CONN_3))
+      (pins
+        (pin (num 1) (name P1) (type passive))
+        (pin (num 2) (name PM) (type passive))
+        (pin (num 3) (name P3) (type passive))))
+    (libpart (lib usb_atmega32u2_rfm7x-saved) (part CONN_4)
+      (fields
+        (field (name Reference) P)
+        (field (name Value) CONN_4))
+      (pins
+        (pin (num 1) (name P1) (type passive))
+        (pin (num 2) (name P2) (type passive))
+        (pin (num 3) (name P3) (type passive))
+        (pin (num 4) (name P4) (type passive))))
+    (libpart (lib usb_atmega32u2_rfm7x-saved) (part CONN_6)
+      (fields
+        (field (name Reference) P)
+        (field (name Value) CONN_6))
+      (pins
+        (pin (num 1) (name 1) (type passive))
+        (pin (num 2) (name 2) (type passive))
+        (pin (num 3) (name 3) (type passive))
+        (pin (num 4) (name 4) (type passive))
+        (pin (num 5) (name 5) (type passive))
+        (pin (num 6) (name 6) (type passive))))
+    (libpart (lib usb_atmega32u2_rfm7x-saved) (part CONN_7)
+      (fields
+        (field (name Reference) P)
+        (field (name Value) CONN_7))
+      (pins
+        (pin (num 1) (name P1) (type passive))
+        (pin (num 2) (name P2) (type passive))
+        (pin (num 3) (name P3) (type passive))
+        (pin (num 4) (name P4) (type passive))
+        (pin (num 5) (name P5) (type passive))
+        (pin (num 6) (name P6) (type passive))
+        (pin (num 7) (name P7) (type passive))))
+    (libpart (lib usb_atmega32u2_rfm7x-saved) (part C)
+      (footprints
+        (fp SM*)
+        (fp C?)
+        (fp C1-1))
+      (fields
+        (field (name Reference) C)
+        (field (name Value) C))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
+    (libpart (lib usb_atmega32u2_rfm7x-saved) (part CRYSTAL)
+      (fields
+        (field (name Reference) X)
+        (field (name Value) CRYSTAL))
+      (pins
+        (pin (num 1) (name 1) (type passive))
+        (pin (num 2) (name 2) (type passive))))
+    (libpart (lib usb_atmega32u2_rfm7x-saved) (part R)
+      (footprints
+        (fp R?)
+        (fp SM0603)
+        (fp SM0805)
+        (fp R?-*)
+        (fp SM1206))
+      (fields
+        (field (name Reference) R)
+        (field (name Value) R))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
+    (libpart (lib usb_atmega32u2_rfm7x-saved) (part RFM70)
+      (footprints
+        (fp RFM70))
+      (fields
+        (field (name Reference) U)
+        (field (name Value) RFM70))
+      (pins
+        (pin (num 1) (name IRQ) (type output))
+        (pin (num 2) (name MISO) (type output))
+        (pin (num 3) (name MOSI) (type input))
+        (pin (num 4) (name SCK) (type input))
+        (pin (num 5) (name CSN) (type input))
+        (pin (num 6) (name CE) (type input))
+        (pin (num 7) (name VDD) (type power_in))
+        (pin (num 8) (name GND) (type power_in))))
+    (libpart (lib usb_atmega32u2_rfm7x-saved) (part SW_PUSH)
+      (fields
+        (field (name Reference) SW)
+        (field (name Value) SW_PUSH))
+      (pins
+        (pin (num 1) (name 1) (type passive))
+        (pin (num 2) (name 2) (type passive))))
+    (libpart (lib usb_atmega32u2_rfm7x-saved) (part USBCONN)
+      (fields
+        (field (name Reference) U)
+        (field (name Value) USBCONN))
+      (pins
+        (pin (num 1) (name VBUS) (type power_in))
+        (pin (num 2) (name DN) (type BiDi))
+        (pin (num 3) (name DP) (type BiDi))
+        (pin (num 4) (name GND) (type power_in))
+        (pin (num 5) (name SHIELD) (type power_in)))))
+  (libraries
+    (library (logical usb_atmega32u2_rfm7x-saved)
+      (uri usb_atmega32u2_rfm7x-saved.lib)))
+  (nets
+    (net (code 1) (name GND)
+      (node (ref C5) (pin 2))
+      (node (ref P4) (pin 5))
+      (node (ref U2) (pin 3))
+      (node (ref C2) (pin 2))
+      (node (ref U3) (pin 5))
+      (node (ref U3) (pin 4))
+      (node (ref C4) (pin 2))
+      (node (ref C3) (pin 2))
+      (node (ref SW2) (pin 2))
+      (node (ref SW1) (pin 1))
+      (node (ref P1) (pin 2))
+      (node (ref U2) (pin 28))
+      (node (ref C1) (pin 2))
+      (node (ref U1) (pin 8)))
+    (net (code 2) (name "")
+      (node (ref P1) (pin 3))
+      (node (ref U2) (pin 8)))
+    (net (code 3) (name "")
+      (node (ref U2) (pin 9))
+      (node (ref P1) (pin 4)))
+    (net (code 4) (name "")
+      (node (ref U2) (pin 12))
+      (node (ref P1) (pin 6)))
+    (net (code 5) (name /MOSI)
+      (node (ref P4) (pin 2))
+      (node (ref U2) (pin 16))
+      (node (ref U1) (pin 3)))
+    (net (code 6) (name /MISO)
+      (node (ref P4) (pin 3))
+      (node (ref U2) (pin 17))
+      (node (ref U1) (pin 2)))
+    (net (code 7) (name "")
+      (node (ref U2) (pin 18))
+      (node (ref U1) (pin 1)))
+    (net (code 8) (name "")
+      (node (ref U2) (pin 21))
+      (node (ref P3) (pin 2)))
+    (net (code 9) (name "")
+      (node (ref U2) (pin 22))
+      (node (ref P3) (pin 1)))
+    (net (code 10) (name /VCC)
+      (node (ref P1) (pin 1))
+      (node (ref P4) (pin 6))
+      (node (ref U1) (pin 7))
+      (node (ref R3) (pin 1))
+      (node (ref R4) (pin 1))
+      (node (ref U2) (pin 27))
+      (node (ref U2) (pin 32))
+      (node (ref C3) (pin 1))
+      (node (ref C4) (pin 1))
+      (node (ref U2) (pin 4)))
+    (net (code 11) (name "")
+      (node (ref U2) (pin 23))
+      (node (ref P2) (pin 1)))
+    (net (code 12) (name "")
+      (node (ref U1) (pin 5))
+      (node (ref U2) (pin 14)))
+    (net (code 13) (name "")
+      (node (ref U2) (pin 25)))
+    (net (code 14) (name "")
+      (node (ref U2) (pin 26)))
+    (net (code 15) (name "")
+      (node (ref P1) (pin 5))
+      (node (ref U2) (pin 11)))
+    (net (code 16) (name "")
+      (node (ref U2) (pin 19))
+      (node (ref P3) (pin 4)))
+    (net (code 17) (name "")
+      (node (ref U2) (pin 29))
+      (node (ref R2) (pin 2)))
+    (net (code 18) (name "")
+      (node (ref U3) (pin 1))
+      (node (ref C5) (pin 1))
+      (node (ref U2) (pin 31)))
+    (net (code 19) (name "")
+      (node (ref U2) (pin 30))
+      (node (ref R1) (pin 2)))
+    (net (code 20) (name "")
+      (node (ref R2) (pin 1))
+      (node (ref U3) (pin 3)))
+    (net (code 21) (name "")
+      (node (ref U3) (pin 2))
+      (node (ref R1) (pin 1)))
+    (net (code 22) (name /SCLK)
+      (node (ref P4) (pin 4))
+      (node (ref U1) (pin 4))
+      (node (ref U2) (pin 15)))
+    (net (code 23) (name "")
+      (node (ref C1) (pin 1))
+      (node (ref U2) (pin 1))
+      (node (ref X1) (pin 1)))
+    (net (code 24) (name "")
+      (node (ref K1) (pin 1))
+      (node (ref U2) (pin 5)))
+    (net (code 25) (name "")
+      (node (ref U2) (pin 6))
+      (node (ref K1) (pin 2)))
+    (net (code 26) (name "")
+      (node (ref U2) (pin 7))
+      (node (ref K1) (pin 3)))
+    (net (code 27) (name "")
+      (node (ref U2) (pin 10))
+      (node (ref U1) (pin 6)))
+    (net (code 28) (name "")
+      (node (ref U2) (pin 20))
+      (node (ref P3) (pin 3)))
+    (net (code 29) (name "")
+      (node (ref X1) (pin 2))
+      (node (ref C2) (pin 1))
+      (node (ref U2) (pin 2)))
+    (net (code 30) (name /RESET)
+      (node (ref SW2) (pin 1))
+      (node (ref P4) (pin 1))
+      (node (ref R4) (pin 2))
+      (node (ref U2) (pin 24)))
+    (net (code 31) (name "")
+      (node (ref P1) (pin 7))
+      (node (ref R3) (pin 2))
+      (node (ref U2) (pin 13))
+      (node (ref SW1) (pin 2)))))
